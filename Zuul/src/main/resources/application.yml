@@ -1,0 +1,22 @@
+server:
+  port: 9937
+
+spring:
+  application:
+    name: ZuulServer
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9931/eureka/
+
+zuul:
+  routes:
+    api-server1:
+      path: /api-server1/**
+      serviceId: server1
+    api-server2:
+      path: /api-server2/**
+      serviceId: server2
+

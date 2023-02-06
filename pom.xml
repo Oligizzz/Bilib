@@ -20,6 +20,7 @@
         <module>JUC</module>
         <module>Server1</module>
         <module>Server2</module>
+        <module>Zuul</module>
     </modules>
 
     <properties>
