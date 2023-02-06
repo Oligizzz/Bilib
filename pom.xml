@@ -18,6 +18,7 @@
         <module>Eureka</module>
         <module>DesignPatterns</module>
         <module>JUC</module>
+        <module>Server1</module>
     </modules>
 
     <properties>
