@@ -1,0 +1,20 @@
+# 应用名称
+spring:
+  application:
+    name: Server2
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9931/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+
+server:
+  port: 9935
+
+
+
